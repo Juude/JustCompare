@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Diff Tool</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="controls">
+            <input type="file" id="file1_input">
+            <input type="file" id="file2_input">
+            <button id="compare_button">Compare</button>
+        </div>
+        <div class="diff-container">
+            <div class="diff-pane" id="diff_output1">
+                <!-- File 1 differences will be shown here -->
+            </div>
+            <div class="diff-pane" id="diff_output2">
+                <!-- File 2 differences will be shown here -->
+            </div>
+        </div>
+    </div>
+    <script type="module" src="./main.js"></script>
+</body>
+</html>

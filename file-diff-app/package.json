@@ -1,0 +1,14 @@
+{
+  "name": "file-diff-app",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "npx vite",
+    "build": "npx vite build",
+    "tauri": "/home/jules/.cargo/bin/cargo-tauri"
+  },
+  "devDependencies": {
+    "vite": "latest",
+    "@tauri-apps/cli": "latest"
+  }
+}
